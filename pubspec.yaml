@@ -1,0 +1,80 @@
+name: roqqu_assessment
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.17
+  modal_bottom_sheet: ^3.0.0
+  intl: ^0.20.2
+  web_socket_channel: ^3.0.2
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/png/
+    - assets/images/svg/
+
+
+  fonts:
+   - family: Satoshi
+     fonts:
+       - asset: assets/fonts/Satoshi-Light.otf
+         weight: 300
+       - asset: assets/fonts/Satoshi-Medium.otf
+         weight: 400
+       - asset: assets/fonts/Satoshi-Regular.otf
+         weight: 500
+       - asset: assets/fonts/Satoshi-Bold.otf
+         weight: 600
+       - asset: assets/fonts/Satoshi-Black.otf
+         weight: 700
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

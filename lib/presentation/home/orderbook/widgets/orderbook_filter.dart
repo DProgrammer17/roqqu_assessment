@@ -29,14 +29,14 @@ class OrderBookFilter extends ConsumerWidget {
             ValueFilterOption(
               onPressed: () => ref.watch(orderBookNotifier.notifier).setFilterOption(AppStrings.highVal),
               value: AppStrings.highVal,
-              icon: SvgAssets.highValIcon,
+              icon: SvgAssets.lowValIcon,
               selected: ref.watch(orderBookNotifier).orderBookFilter == AppStrings.highVal,
             ),
             6.sbW,
             ValueFilterOption(
               onPressed: () => ref.watch(orderBookNotifier.notifier).setFilterOption(AppStrings.lowVal),
               value: AppStrings.lowVal,
-              icon: SvgAssets.lowValIcon,
+              icon: SvgAssets.highValIcon,
               selected: ref.watch(orderBookNotifier).orderBookFilter == AppStrings.lowVal,
             ),
           ],

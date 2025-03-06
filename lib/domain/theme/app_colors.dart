@@ -14,6 +14,7 @@ abstract class AppColors {
   static const selectedDarkGrey = Color(0xFF555C63);
   static const successGreen = Color(0xFF00C076);
   static const failRed = Color(0xFFFF554A);
+  static const dustyOrange = Color(0xFFFF6838);
   static const classicBlue = Color(0xFF2764FF);
   static const cryptoLinearGradient = LinearGradient(
     colors: [

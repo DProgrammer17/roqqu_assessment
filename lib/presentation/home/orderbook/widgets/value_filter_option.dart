@@ -27,7 +27,7 @@ class ValueFilterOption extends StatelessWidget {
         ),
         child: SvgPicture.asset(
           icon,
-          height: 11.ah,
+          height: 21.ah,
         ),
       ),
     );

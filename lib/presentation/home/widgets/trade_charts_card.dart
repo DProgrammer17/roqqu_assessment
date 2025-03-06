@@ -56,6 +56,7 @@ class TradeChartsCard extends StatelessWidget {
             16.sbH,
             const Expanded(
               child: TabBarView(
+                physics: NeverScrollableScrollPhysics(),
                 children: [
                   TradeCharts(),
                   OrderBook(),

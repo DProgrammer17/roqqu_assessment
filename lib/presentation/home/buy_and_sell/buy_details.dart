@@ -31,6 +31,7 @@ class BuyDetails extends StatelessWidget {
               (index) => TradeFilterOptionPill(
                 option: HomeModel().buyOptions.elementAt(index),
                 value: index == 0,
+                onTap: (){},
               ),
             ),
           ),

@@ -17,4 +17,5 @@ abstract class SvgAssets{
   static const highLowValIcon = 'assets/images/svg/high_low_val_icon.svg';
   static const highValIcon = 'assets/images/svg/high_val_icon.svg';
   static const lowValIcon = 'assets/images/svg/low_val_icon.svg';
+  static const caseArrowDownIcon = 'assets/images/svg/case_arrow_down_icon.svg';
 }

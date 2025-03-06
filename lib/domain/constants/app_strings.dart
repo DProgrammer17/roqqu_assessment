@@ -29,9 +29,23 @@ abstract class AppStrings {
   static const noOpenOrders = 'No Open Orders';
   static const noOpenPositions = 'No Open Positions';
   static const noOrderHistory = 'No Order History';
+  static const socketClosed = 'Socket Closed';
+  static const o = 'O';
+  static const h = 'H';
+  static const l = 'L';
+  static const c = 'C';
+  static const charge = 'Charge';
+  static const chargeAmount = '2.33%';
+  static const amplitudeAmount = '6.59%';
+  static const amplitude = 'Amplitude';
+  static const priceUSDT = 'Price\n(USDT)';
+  static const amountsBTC = 'Amounts\n(BTC)';
   static const loremIpsum =
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id pulvinar nullam sit imperdiet pulvinar.';
   static String amountValue(
           {required String amount, required String currency}) =>
       '$amount $currency';
+  static String volSymbol(
+          {required String symbol}) =>
+      'Vol($symbol):';
 }
